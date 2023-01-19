@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Costom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+ <link rel="shortcut icon" href="icons/adobe.png" type="image/x-icon">
+  <title>My-Food</title>
+
+  <!-- Tailwind CDN-->
+  <style type="text/tailwindcss">
+    @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="text-gray-600 body-font bg-dark bg-secondary text-light">
+    <div class="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center  mb-2 md:mb-0">
+        <img fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-16 h-16 text-white p-2 bg-indigo-400 rounded-full" viewBox="0 0 24 24" src="logo/logo1.jpg" alt="">
+        <span class="ml-3 text-xl">My-Online-Food</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5" href="/">Home</a>
+        <a class="mr-5" href="/contact.html">About</a>
+        <a class="mr-5" href="/">Products</a>
+        <a class="mr-5" href="/">Contact</a>
+      </nav>
+      </button>
+    </div>
+  </header>
+
+  <section class="text-center py-5">
+    <div class="container" data-aos="flip-up" data-aos-duration="1000">
+        <div class="row">
+            <div class="col-md">
+                <h4 class="text-muted"><i class="fas fa-envelope"></i> EMAIL</h4>
+                <hr />
+                <p class="font-weight-bold">
+                    info@anuragjwellar's.com<br/>support@anuragjwellar's.com
+                </p>
+            </div>
+            <div class="col-md">
+                <h4 class="text-muted"><i class="fas fa-map-marker-alt"></i> ADDRESS</h4>
+                <hr />
+                <p class="font-weight-bold">
+                    Banai-Mau Khiron Lalgang, Raebareli - Uttar Pradesh- (229205)
+                </p>
+            </div>
+            <div class="col-md">
+                <h4 class="text-muted"><i class="fas fa-mobile-alt"></i> Phone</h4>
+                <hr />
+                <p class="font-weight-bold">
+                    +91-9305189315 <br/> +91-6389032216
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-light">
+    <div class="container py-5">
+        <iframe class="w-100"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7157.374486009724!2d80.93736694706759!3d26.23934998336333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399b847d4b3457bf%3A0xb7d26ebfa0f4dce7!2sBanai%20Mau%2C%20Uttar%20Pradesh%20229206!5e0!3m2!1sen!2sin!4v1672211063248!5m2!1sen!2sin"
+            height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+
+  <!-- ORDER -->
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+      <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+        <h1 class="title-font font-medium text-3xl text-gray-900">For Any Info, Please Contact Us</h1>
+        <p class="leading-relaxed mt-4">Poke slow-carb mixtape knausgaard, typewriter street art gentrify hammock
+          starladder roathse. Craies vegan tousled etsy austin.</p>
+      </div>
+      <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+        <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Sign Up</h2>
+        <div class="relative mb-4">
+          <label for="full-name" class="leading-7 text-sm text-gray-600">Full Name</label>
+          <input type="text" id="full-name" name="full-name"
+            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative mb-4">
+          <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+          <input type="email" id="email" name="email"
+            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <button
+          class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
+        <p class="text-xs text-gray-500 mt-3">Thanks, We Will Contact As Soon As Possible</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-12 h-12 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24" src="logo/logo1.jpg" alt="">
+        <span class="ml-3 text-xl">My-Food</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023 —
+        <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer"
+          target="_blank">@copyright All right regerved</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a href="https://facebook.com" class="text-gray-500">
+          <img src="icons/facebook.png" alt="">
+        </a>
+        <a href="https://twitter.com" class="ml-3 text-gray-500">
+          <img src="icons/twitter.png" alt="">
+        </a>
+        <a href="https://instagram.com" class="ml-3 text-gray-500">
+          <img src="icons/instagram.png" alt="">
+        </a>
+        <a href="https://youtube.com" class="ml-3 text-gray-500">
+          <img src="icons/youtube.png" alt="">
+        </a>
+      </span>
+    </div>
+  </footer>
+</body>
+
+</html>
